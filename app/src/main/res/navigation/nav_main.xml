@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="ru.netology.yandexmaps.fragments.MapFragment"
+        android:label="MapFragment">
+        <action
+            android:id="@+id/action_mapFragment_to_licenseFragment"
+            app:destination="@id/licenseFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_showPointsFragment"
+            app:destination="@id/showPointsFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_addPointFragment"
+            app:destination="@id/addPointFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/licenseFragment"
+        android:name="ru.netology.yandexmaps.fragments.AboutProgramFragment"
+        android:label="LicenseFragment" />
+    <fragment
+        android:id="@+id/showPointsFragment"
+        android:name="ru.netology.yandexmaps.fragments.ShowPointsFragment"
+        android:label="ShowPointsFragment">
+        <action
+            android:id="@+id/action_showPointsFragment_to_addPointFragment"
+            app:destination="@id/addPointFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPointFragment"
+        android:name="ru.netology.yandexmaps.fragments.AddPointFragment"
+        android:label="AddPointFragment" />
+</navigation>

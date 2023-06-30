@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Yandex Maps</string>
+    <string name="about_program">О программе</string>
+    <string name="about_program_text">В данном проекте использованы Яндекс.Карты. Ссылка на условия использования: https://yandex.ru/legal/maps_termsofuse/</string>
+    <string name="add_point">Добавить точку</string>
+    <string name="show_points">Показать все точки</string>
+    <string name="coordinates">Координаты точки:</string>
+    <string name="latitude">Ш:</string>
+    <string name="longitude">Д:</string>
+    <string name="save">Сохранить</string>
+    <string name="description">Описание:</string>
+    <string name="icon_description">Объект на карте</string>
+    <string name="delete">Удалить точку</string>
+    <string name="cancel">Отмена</string>
+    <string name="edit">Редактировать</string>
+    <string name="remove">Удалить</string>
+    <string name="error">Широта должна быть от -90 до 90, долгота — от -180 до 180</string>
+</resources>

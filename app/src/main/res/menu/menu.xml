@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addPoint"
+        android:title="@string/add_point" />
+    <item
+        android:id="@+id/showPoints"
+        android:title="@string/show_points" />
+    <item
+        android:id="@+id/showLicenses"
+        android:title="@string/about_program" />
+</menu>

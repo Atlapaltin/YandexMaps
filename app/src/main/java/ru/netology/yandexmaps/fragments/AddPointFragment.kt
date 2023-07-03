@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.yandex.mapkit.geometry.Point
-import ru.netology.yandexmaps.databinding.FragmentAddPointBinding
+import ru.netology.yamaps.databinding.FragmentAddPointBinding
 import ru.netology.yandexmaps.dto.MapPoint
 import ru.netology.yandexmaps.viewmodel.MapPointsViewModel
 
@@ -20,7 +20,7 @@ class AddPointFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val binding = FragmentAddPointBinding.inflate(
             inflater,
             container,
@@ -39,7 +39,7 @@ class AddPointFragment : Fragment() {
                 latitudeValue.setText(viewModel.currentPosition.latitude.toString())
                 longitudeValue.setText(viewModel.currentPosition.longitude.toString())
                 delete.visibility = View.GONE
-                (viewModel.data.value?.maxByOrNull { point -> point.id }?.id ?: 0) + 1
+                0L
             }
 
             save.setOnClickListener {

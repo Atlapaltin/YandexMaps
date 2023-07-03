@@ -15,9 +15,9 @@ import com.yandex.mapkit.layers.GeoObjectTapListener
 import com.yandex.mapkit.map.CameraPosition
 import com.yandex.mapkit.map.MapObjectTapListener
 import com.yandex.runtime.ui_view.ViewProvider
-import ru.netology.yandexmaps.BuildConfig
-import ru.netology.yandexmaps.R
-import ru.netology.yandexmaps.databinding.FragmentMapBinding
+import ru.netology.yamaps.BuildConfig
+import ru.netology.yamaps.R
+import ru.netology.yamaps.databinding.FragmentMapBinding
 import ru.netology.yandexmaps.viewmodel.MapPointsViewModel
 
 

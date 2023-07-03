@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import ru.netology.yandexmaps.databinding.PointLineBinding
+import ru.netology.yamaps.databinding.PointLineBinding
 import ru.netology.yandexmaps.dto.MapPoint
 
 interface OnInteractionListener {

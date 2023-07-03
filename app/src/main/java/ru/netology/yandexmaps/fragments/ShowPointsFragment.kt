@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import ru.netology.yandexmaps.R
+import ru.netology.yamaps.R
+import ru.netology.yamaps.databinding.FragmentShowPointsBinding
 import ru.netology.yandexmaps.adapter.OnInteractionListener
 import ru.netology.yandexmaps.adapter.PointsAdapter
-import ru.netology.yandexmaps.databinding.FragmentShowPointsBinding
 import ru.netology.yandexmaps.dto.MapPoint
 import ru.netology.yandexmaps.viewmodel.MapPointsViewModel
 

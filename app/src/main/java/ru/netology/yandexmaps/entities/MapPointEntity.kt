@@ -7,7 +7,7 @@ import ru.netology.yandexmaps.dto.MapPoint
 
 @Entity
 data class MapPointEntity(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     val id: Long,
     val text: String,
     val pointLatitude: Double,
